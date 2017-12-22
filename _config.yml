@@ -16,6 +16,7 @@ papers:
   - layout: paper
     year: 2017
     paper-type: published
+    selected: yes
     img: scnlp2017
     title: "Yann Le Cun: Predicting under Uncertainty, the Next Frontier in AI"
     authors: "Duke Lee | Localized by Synced Global Team : Xiang Chen"
@@ -42,29 +43,55 @@ papers:
       deals with partial predictability will be presented. The formulation connects 
       many well-known approaches to unsupervised learning, as well as new and exciting 
       ones such as adversarial training.
-  - layout: paper
-    year: 2017
-    paper-type: inproceedings
-    img: conll2017
-    title: "UParse: the Edinburgh system for the CoNLL 2017 UD shared task"
-    authors: Clara Vania, Xingxing Zhang, and Adam Lopez
-    booktitle: "Proceedings of the CoNLL shared task"
-    booktitle-url: http://universaldependencies.org/conll17/
-    doc-url: http://aclweb.org/anthology/K17-3010
-    venue: workshop
-    abstract: >
-      This paper presents our submissions for
-      the CoNLL 2017 UD Shared Task. Our
-      parser, called UParse, is based on a neural
-      network graph-based dependency parser.
-      The parser uses features from a bidirectional
-      LSTM to produce a distribution over
-      possible heads for each word in the sentence.
-      To allow transfer learning for lowresource
-      treebanks and surprise languages,
-      we train several multilingual models for
-      related languages, grouped by their genus
-      and language families. Out of 33 participants,
-      our system achieves rank 9th in the
-      main results, with 75.49 UAS and 68.87
-      LAS F-1 scores (average across 81 treebanks).
+  # - layout: paper
+  #   paper-type: inproceedings
+  #   selected: yes
+  #   year: 2016
+  #   img: glm
+  #   title: N-gram language models for massively parallel devices
+  #   authors: Nikolay Bogoychev and Adam Lopez
+  #   booktitle: Proceedings of ACL
+  #   booktitle-url: http://acl2016.org/
+  #   code: https://github.com/XapaJIaMnu/gLM
+  #   doc-url: https://drive.google.com/file/d/0B7cpo43vOGF1RHIxSTgwNFB6Wkk/view?usp=sharing
+  #   venue: conference
+  #   abstract: >
+  #     For many applications, the query speed of $N$-gram language models is 
+  #     a computational bottleneck. Although massively parallel hardware like 
+  #     GPUs offer a potential solution to this bottleneck, exploiting this 
+  #     hardware requires a careful rethinking of basic algorithms and data 
+  #     structures. We present the first language model designed for such 
+  #     hardware, using B-trees to maximize data parallelism and minimize 
+  #     memory footprint and latency. Compared with a single-threaded 
+  #     instance of KenLM (Heafield, 2011), a highly optimized CPU-based 
+  #     language model, our GPU implementation produces identical results 
+  #     with a smaller memory footprint and a sixfold increase in throughput 
+  #     on a batch query task. When we saturate both devices, the GPU 
+  #     delivers nearly twice the throughput per hardware dollar even when the
+  #     CPU implementation uses faster data structures.
+  # - layout: paper
+  #   year: 2017
+  #   paper-type: inproceedings
+  #   img: conll2017
+  #   title: "UParse: the Edinburgh system for the CoNLL 2017 UD shared task"
+  #   authors: Clara Vania, Xingxing Zhang, and Adam Lopez
+  #   booktitle: "Proceedings of the CoNLL shared task"
+  #   booktitle-url: http://universaldependencies.org/conll17/
+  #   doc-url: http://aclweb.org/anthology/K17-3010
+  #   venue: workshop
+  #   abstract: >
+  #     This paper presents our submissions for
+  #     the CoNLL 2017 UD Shared Task. Our
+  #     parser, called UParse, is based on a neural
+  #     network graph-based dependency parser.
+  #     The parser uses features from a bidirectional
+  #     LSTM to produce a distribution over
+  #     possible heads for each word in the sentence.
+  #     To allow transfer learning for lowresource
+  #     treebanks and surprise languages,
+  #     we train several multilingual models for
+  #     related languages, grouped by their genus
+  #     and language families. Out of 33 participants,
+  #     our system achieves rank 9th in the
+  #     main results, with 75.49 UAS and 68.87
+  #     LAS F-1 scores (average across 81 treebanks).
