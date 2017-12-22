@@ -1,0 +1,70 @@
+exclude: ['README.md']
+timezone: US/Eastern
+# talks:
+#   -
+#     title: Compact adaptable translation models on GPUs
+#     detail: Talk at Google, 2013.
+#     url: "http://www.cs.jhu.edu/~alopez/talks/gpus-oct2013-google.pdf"
+#     img: "google-talk.jpg"
+#   -
+#     title: Learning to translate with products of novices
+#     detail: Talk at Information Science Institute, 2013.
+#     url: "http://www.cs.jhu.edu/~alopez/talks/mt-class-isi.pdf"
+#     img: "isi-talk.jpg"
+#     video: http://webcasterms1.isi.edu/mediasite/SilverlightPlayer/Default.aspx?peid=ea55185170054e13972a0ea5b932eb6c1d
+papers:
+  - layout: paper
+    year: 2017
+    paper-type: published
+    img: scnlp2017
+    title: "Yann Le Cun: Predicting under Uncertainty, the Next Frontier in AI"
+    authors: "Duke Lee | Localized by Synced Global Team : Xiang Chen"
+    # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
+    # booktitle-url: http://speechnlp.github.io/2017/
+    # venue: workshop
+    doc-url: https://syncedreview.com/2017/02/25/yann-le-cun-predicting-under-uncertainty-the-next-frontier-in-ai/
+    abstract: >
+      The rapid progress of AI in the last few years is largely the result of 
+      advances in deep learning and neural nets, combined with the availability of 
+      large datasets and fast GPUs. We now have systems that can recognise images 
+      with an accuracy that rival humans. This is creating a revolution in several 
+      domains, such as information access, autonomous transportation, and medical 
+      image analysis. But currently, all these systems use supervised learning, 
+      where the machine is trained with inputs labelled by humans. Therefore, 
+      the challenge now is for machines learn from raw, unlabeled data such 
+      as video or text. This is known as predictive (or unsupervised) learning.
+      Intelligent systems today do not possess “common sense”, which in human 
+      and animals is acquired by observing the world, understanding the physical 
+      constraints, and acting on it. Professor LeCun argues that the ability for 
+      machines to learn predictive models of the world is a key component in enabling 
+      significant progress in AI. The main technical difficulty is that the world is 
+      only partially predictable. A general formulation of unsupervised learning that 
+      deals with partial predictability will be presented. The formulation connects 
+      many well-known approaches to unsupervised learning, as well as new and exciting 
+      ones such as adversarial training.
+  - layout: paper
+    year: 2017
+    paper-type: inproceedings
+    img: conll2017
+    title: "UParse: the Edinburgh system for the CoNLL 2017 UD shared task"
+    authors: Clara Vania, Xingxing Zhang, and Adam Lopez
+    booktitle: "Proceedings of the CoNLL shared task"
+    booktitle-url: http://universaldependencies.org/conll17/
+    doc-url: http://aclweb.org/anthology/K17-3010
+    venue: workshop
+    abstract: >
+      This paper presents our submissions for
+      the CoNLL 2017 UD Shared Task. Our
+      parser, called UParse, is based on a neural
+      network graph-based dependency parser.
+      The parser uses features from a bidirectional
+      LSTM to produce a distribution over
+      possible heads for each word in the sentence.
+      To allow transfer learning for lowresource
+      treebanks and surprise languages,
+      we train several multilingual models for
+      related languages, grouped by their genus
+      and language families. Out of 33 participants,
+      our system achieves rank 9th in the
+      main results, with 75.49 UAS and 68.87
+      LAS F-1 scores (average across 81 treebanks).
