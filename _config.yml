@@ -17,7 +17,7 @@ papers:
     year: 2017.12.28
     paper-type: published
     selected: yes
-    img: zhihu
+    # img: zhihu
     title: "TEST"
     authors: Duke Lee
     # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
@@ -30,7 +30,7 @@ papers:
     year: 2017
     paper-type: published
     selected: yes
-    img: SYNCED
+    # img: SYNCED
     title: "Yann Le Cun: Predicting under Uncertainty, the Next Frontier in AI"
     authors: "Duke Lee | Localized by Synced Global Team : Xiang Chen"
     # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
@@ -60,7 +60,7 @@ papers:
     year: 2017
     paper-type: published
     selected: yes
-    img: SYNECD
+    # img: SYNECD
     title: "David Silver, Google DeepMind: Deep Reinforcement Learning"
     authors: "Duke Lee | Editor: Arac Wu | Localized by Synced Global Team : Xiang Chen"
     # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
@@ -81,7 +81,7 @@ papers:
     year: 2017
     paper-type: published
     selected: yes
-    img: SYNECD
+    # img: SYNECD
     title: "Combining Collaborative Filtering with Personal Agents for Better Recommendations"
     authors: "Duke Lee | Editor: Arac Wu | Localized by Synced Global Team : Xiang Chen"
     # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
@@ -104,7 +104,7 @@ papers:
     year: 2017
     paper-type: published
     selected: yes
-    img: SYNECD
+    # img: SYNECD
     title: "Generalizing and Hybridizing Count-based and Neural Language Model"
     authors: "Author: Junyi | Reviewer: Haojin Yang"
     # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
@@ -126,7 +126,7 @@ papers:
     year: 2017
     paper-type: published
     selected: yes
-    img: SYNECD
+    # img: SYNECD
     title: "London: Deep Learning in Healthcare"
     authors: "Junyi Li and Yuka Liu | Localized by Synced Global Team : Xiang Chen"
     # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
@@ -144,7 +144,7 @@ papers:
     year: 2017
     paper-type: published
     selected: yes
-    img: SYNECD
+    # img: SYNECD
     title: "RE·WORK: Deep Learning in Retail Summit (London, UK)"
     authors: "Junyi Li"
     # booktitle: Workshop on Speech-Centric Natural Language Processing (SCNLP)
