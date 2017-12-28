@@ -187,7 +187,7 @@ papers:
   - layout: paper
     year: 2017
     paper-type: inproceedings
-    img: conll2017
+    img: zhihu
     title: "UParse: the Edinburgh system for the CoNLL 2017 UD shared task"
     authors: Clara Vania, Xingxing Zhang, and Adam Lopez
     booktitle: "Proceedings of the CoNLL shared task"
